@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: white;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .gradient {
+      background: linear-gradient(90deg, #a855f7, #7c3aed);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    p {
+      color: #aaa;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(168,85,247,0.3);
+      border-radius: 20px;
+      padding: 30px;
+      margin-top: 40px;
+      backdrop-filter: blur(10px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      box-shadow: 0 0 30px rgba(168,85,247,0.5);
+      transform: translateY(-5px);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      border-radius: 30px;
+      background: #a855f7;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #7c3aed;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>About <span class="gradient">Me</span></h1>
+
+    <p>
+      I am a creative developer and designer passionate about building modern digital experiences.
+      I combine design, programming, and AI tools to create clean and powerful projects.
+    </p>
+
+    <div class="card">
+      <h2>What I Do</h2>
+      <p>
+        - UI/UX Design<br>
+        - Website Development<br>
+        - AI Tools (ChatGPT, Canva Pro)<br>
+        - Content Creation
+      </p>
+    </div>
+
+    <a href="index.html" class="btn">⬅ Back Home</a>
+  </div>
+
+</body>
+</html>
