@@ -4,9 +4,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import {
   Send,
   Instagram,
-  Twitter,
-  Linkedin,
-  Github,
   Mail,
   MapPin,
   CheckCircle,
